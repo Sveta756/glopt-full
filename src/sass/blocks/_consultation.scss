@@ -1,0 +1,38 @@
+.consultation {
+    display: relative;
+    &__title {
+        color: $second-color;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 71px;
+    }
+    &__form {
+        display: block;
+        height: 166px;
+        border: 1px solid #898989;
+        margin-bottom: 80px;
+    }
+    &__img {
+        display: block;
+        margin: -51px auto 0;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        background: #fff;
+        box-shadow: 0 0 0 10px #fff;
+        img {
+            margin: 17px 20px 24px 23px;
+        }
+    }
+    &__button {
+        display: block;
+        margin: 30px auto 0;
+        width: 180px;
+        height: 45px;
+        background: #fff;
+        box-shadow: 0 0 0 10px #fff;
+    }
+    
+}

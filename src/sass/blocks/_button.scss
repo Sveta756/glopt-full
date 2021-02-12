@@ -1,0 +1,37 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    margin-top: 44px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        background-color: #B22222;
+    }
+    &_main {
+        display: block;
+        width: 230px;
+        height: 57px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    &_mt {
+        margin-top: 0px;
+    }
+    &_cons {
+        display: block;
+        margin-top: 0px;
+        width: 180px;
+        height: 45px;
+        
+    }
+}

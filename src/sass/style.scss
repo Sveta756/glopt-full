@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/_slick';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/consultation';
+@import 'blocks/button';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/_work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/form';
+@import 'blocks/managers';
+@import 'blocks/schema';
+@import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/footer';
+@import 'blocks/hamburger';
+@import 'base/media';

@@ -1,0 +1,31 @@
+.managers {
+    padding: 58px 0 76px 0;
+    min-height: 342px;
+    background: url('../img/city.jpg') center (center/cover) no-repeat;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+    }
+    &__img {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        img {
+            margin: 24px 25px;
+        }
+    }
+    &__title {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        margin: 20px 0 18px 0;
+    }
+    &__text {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
